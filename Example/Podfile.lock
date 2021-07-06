@@ -1,0 +1,31 @@
+PODS:
+  - BGEModularControl (1.0.0):
+    - Masonry
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - BGEModularControl (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - Masonry
+
+EXTERNAL SOURCES:
+  BGEModularControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BGEModularControl: d7e3a58be176fa9c651b81d5db2f1b3d14a10b51
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: cee6a0ed04a425379c48bae0e85163fb77a54882
+
+COCOAPODS: 1.10.1

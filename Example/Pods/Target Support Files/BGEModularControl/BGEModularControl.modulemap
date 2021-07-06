@@ -1,0 +1,6 @@
+framework module BGEModularControl {
+  umbrella header "BGEModularControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
